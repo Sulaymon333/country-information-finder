@@ -143,10 +143,6 @@ input[type='number']::-webkit-outer-spin-button {
   box-shadow: 0px 6px 12px -4px rgba(87, 86, 86, 0.5);
 }
 
-.button#sort i {
-  font-size: 20px;
-}
-
 #result-text {
   margin-top: 30px;
   padding-top: 15px;
@@ -178,6 +174,7 @@ h3 {
   align-items: center;
   padding: 15px;
   font-size: 15px;
+  /* box-shadow: 0px 22px 12px -4px rgba(87, 86, 86, 0.5); */
 }
 
 /* .country div {

@@ -23,7 +23,7 @@ const showCountries = (arr) => {
     countryDiv.innerHTML += `<h1>${name}</h1>`;
     countryDiv.innerHTML += `<p><span>Capital: <b>${capital}</b></p>`;
     countryDiv.innerHTML += `<p>Languages: <b>${languages.join(', ')}</b></p>`;
-    countryDiv.innerHTML += `<p>Population: <b>${String(population)}</b></h1>`;
+    countryDiv.innerHTML += `<p>Population: <b>${population.toLocaleString()}</b></h1>`;
     countryDiv.style.color = 'red';
     countryDiv.style
       .fontWeight = '500'
