@@ -1,3 +1,5 @@
+//***NOTE git push -u countries master - not origin***//
+
 // DOM elements
 const inputField = document.querySelector('#input');
 const actions = document.querySelector('.actions');
