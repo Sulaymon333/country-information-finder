@@ -134,3 +134,10 @@ sortByPopulationButton.addEventListener('click', () => {
 
 /* ButtonChanger() */
 const buttonSiblings = n => [...n.parentElement.children].filter(currentButton => currentButton.nodeType === 1 && currentButton != n)
+const arr = [];
+countries.forEach(country => {
+  let { population } = country
+  // console.log(population);
+  arr.push(population);
+
+})

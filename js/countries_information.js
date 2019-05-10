@@ -1914,7 +1914,7 @@ const countries = [{
     currency: "United Arab Emirates dirham"
   },
   {
-    name: "United Kingdom of Great Britain and Northern Ireland",
+    name: "United Kingdom",
     capital: "London",
     languages: ["English"],
     population: 65110000,
